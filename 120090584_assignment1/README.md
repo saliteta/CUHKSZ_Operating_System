@@ -1,5 +1,8 @@
 # Assignment1
 
+Might need to read operating system concept 10th edition section 4.7.2
+
+
 ## Task I
 
 - We just need to use some basic function calls fork() to fork a new proccess, if the fork returns 0, then we need to use execve() to do the program inside the argv. Meanwhile, we need to use waitpid to wait for particular child process. The pid of that child process was returned by fork if the process it is now executing is parent process.
